@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+		<title>AppLand</title>
+
+		<link href="style.css" rel="stylesheet" type="text/css" title = "default"/>
+		<link href="styledark.css" rel="alternate stylesheet" type="text/css" title = "alternate"/>
+
+		<script type="text/javascript" src="scripts/jquery.min.js"></script>
+		<script type="text/javascript" src="scripts/custom-scroll.js"></script>
+		<script type="text/javascript" src="scripts/smooth-scroll.js"></script>
+		<script type="text/javascript" src="scripts/jquery.scrollTo-1.4.2-min.js"></script>
+		<script type="text/javascript" src="scripts/jquery.inview.js"></script>
+
+
+		<script language="javascript" type="text/javascript">
+		  function resizeIframe(obj) {
+			obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+		  }
+		</script>
+	</head>
+
+	<body>
+		<div id="intro">
+			<div class="story">
+				<div class="center">
+					<div id="logo2"></div>
+					<p>Welcome to AppLand!</p>
+				</div>
+			</div>
+		</div>
+		<div id="second">
+			<div class="story">
+                <div class="float-left">
+                    <table>
+                        <tr>
+                            <td><img class="fourgrid" src="img/mainAbout-1.jpg"/></td>
+                            <td><img class="fourgrid" src="img/mainAbout-2.jpg"/></td>
+                        </tr>
+                        <tr>
+                            <td><img class="fourgrid" src="img/mainAbout-3.jpg"/></td>
+                            <td><img class="fourgrid" src="img/mainAbout-4.jpg"/></td>
+                        </tr>
+                    </table>
+                </div>
+				<div class="float-right">
+					<h2>What is AppLand?</h2>
+                    <p>AppLand started as an idea, "I like Apps, and I want more Apps." </p>
+                        <p>No idea can live on its own, so our
+                        team of developers, sales managers, and baristas set out on a journey to make that idea a reality.
+                        AppLand is the result of that dream. And now we want to share it with you.</p>
+					<p><a href="about.html">Click here to learn more about AppLand</a></p>
+				</div>
+			</div>
+		</div>
+		<div id="third">
+			<div class="story">
+				<div class="center">
+					<h2>Sign Up</h2>
+					<p><h3>Sign up for AppLand now!</h3></p>
+					<form name = "signup" action = "signup.html">
+						<input type = "submit" value = "Sign Up!">
+					</form>
+					<br>
+					<p><h3>Or look for a career in Appland!</h3></p>
+					<form action = "careers.html">
+						<input type = "submit" value = "Careers at Appland!">
+					</form>
+				</div>
+			</div>
+		</div>
+		<div id="fourth">
+			<div class="story">
+				<div class="float-left">
+					<h2>Apps for You</h2>
+					<p>Here at AppLand, you aim to make apps that make YOU a better you! Whether it be health apps
+					to keep your body in peak condition, work apps to streamline your productivity, or games and music apps
+					for when you just want to unwind, AppLand has you covered!
+					<br><p><a href="apps.html">Click here to learn more about our Apps!</a></p>
+				</div>
+				<div class="float-right">
+					<img src="img/appslogo.jpg" id="appslogo" style="width: 400px"></img>
+				</div>
+
+			</div>
+		</div>
+		<header id="menuBar">
+			<table id="menuBarTable">
+				<tr>
+					<td><a href="#intro"><div id="logo"/></div></a></td>
+					<td><table id="buttonTable"></td>
+						<tr>
+							<td><a href="#second" title="Next Section"><button class="btn">About</button></a></td>
+							<td><a href="#third" title="Next Section"><button class="btn">Sign Up</button></a></td>
+							<td><a href="#fourth" title="Next Section"><button class="btn">Apps</button></a></td>
+						</tr>
+					</table>
+				</tr>
+			</table>
+		</header>
+
+		<div class="iframeNoBorder">
+			<iframe src="footer.html" scrolling="no" name="footerframe" id="frame" onload='javascript:resizeIframe(this);'></iframe>
+		</div>
+
+	</body>
+
+<html/>
