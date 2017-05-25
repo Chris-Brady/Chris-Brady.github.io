@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+		<title>Chris Brady</title>
+		<link href="style.css" rel="stylesheet" type="text/css" title = "default"/>
+
+	</head>
+
+	<body bgcolor = "#CCCCCC">
+
+        <div id = "iBar">
+            <img src="http://i.imgur.com/EuC7TY2.png?1"/>
+        </div>
+	</body>
+
+<html/>

@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+#iBar
+{
+    width: 256px;
+    height: 800px;
+    position: fixed;
+    text-align: center;
+    margin-top: 4px;
+    padding: 8px;
+    background-color: #ffffff;
+}
+
+#iBar img
+{
+    width: 128px;
+    height: 128px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+#pCabinet
+{
+    display: block;
+    margin-left: 274px
+}
+
+#pPreview
+{
+    background-color: #ffffff;
+    width: 400px;
+    height: 400px;
+    padding: 2px;
+    margin: 4px;
+    display: inline-block;
+}
+
+#pPreview img
+{
+    width: inherit;
+    display: block;
+}
+
+#pPreview:hover
+{
+    background-color: #444444;
+}
+
+#pFull
+{
+
+}
+
+.title
+{
+    font-size: 20px;
+    color: #777777;
+    margin: 0px;
+    width: inherit;
+}
+
+.description
+{
+    font-size: 15px;
+    color: #999999;
+    margin: 0px;
+    width: inherit;
+}
