@@ -12,7 +12,7 @@ body
     height:512px;
     width:100%;
     background-image: url("http://i.imgur.com/EuC7TY2.png?1");
-    box-shadow: 0px 0px 20px 5px #555555;
+    box-shadow: 0px 0px 20px #666666;
 }
 
 #content
@@ -47,7 +47,7 @@ body
     height:400px;
     background-color: #FFFFFF;
     margin-top: -128px;
-    box-shadow: 0px 0px 20px #555555;
+    box-shadow: 0px 0px 10px #666666;
     text-align: center;
 }
 
@@ -59,7 +59,7 @@ body
     border: 4px solid;
     border-color: #42A5F5;
     border-radius: 128px;
-    box-shadow: 0px 0px 20px #555555;
+    box-shadow: 0px 0px 10px #666666;
 }
 
 #about h1
@@ -78,12 +78,12 @@ body
 #pPreview
 {
     width: 382px;
-    height: 400px;
+    height: 416px;
     margin: 8px;
     display: inline-block;
     background-color: #FFFFFF;
     color: #B8C4CB;
-    box-shadow: 0px 0px 10px #555555;
+    box-shadow: 0px 0px 10px #666666;
 }
 
 #textBox
