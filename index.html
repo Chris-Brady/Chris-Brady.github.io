@@ -2,18 +2,30 @@
 <html>
 
     <head>
-
 		<title>Chris Brady</title>
 		<link href="style.css" rel="stylesheet" type="text/css"/>
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto" rel="stylesheet">
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="smoothScroll.js"></script>
 	</head>
 
 	<body>
 
         <div id = "banner">
-
+            <div id = "content">
+                <div id = "header">
+                    <a href = "#personal" id = "nav">Personal</a>
+                    <a href = "#team" id = "nav">Team</a>
+                    <a href = "" id = "nav">Blog</a>
+                    <a href = "" id = "nav">Links</a>
+                </div>
+                <br><br><br>
+                <h1 class = "white">Chris Brady</h1>
+                <hr>
+                <h3 class = "white">Game Programming and Design<h3>
+            </div>
         </div>
+
         <div id = "content">
             <div id = "about">
                 <img src="Resources/images/avatar.jpg"/>
@@ -23,8 +35,11 @@
                 </p>
             </div>
 
-            <br><h1>Portfolio</h1><hr>
-            <h3>Some work</h3><br>
+            <br>
+            <h1 id = "personal">Portfolio</h1>
+            <hr>
+            <h3>Some work</h3>
+            <br>
 
             <div id = "pPreview">
                 <img src="http://i.imgur.com/EuC7TY2.png?1"/>
@@ -46,8 +61,11 @@
                 </div>
             </div>
 
-            <br><h1>Team Projects</h1><hr>
-            <h3>Some work</h3><br>
+            <br>
+            <h1 id = "team">Team Projects</h1>
+            <hr>
+            <h3>Some work</h3>
+            <br>
 
             <a id = "pPreview" href = "trashteamracing.html">
                 <img src="Resources/images/trash.png"/>
@@ -68,7 +86,29 @@
                     </article>
                 </div>
             </div>
+
+            <a id = "pPreview" href = "trashteamracing.html">
+                <img src="Resources/images/trash.png"/>
+                <div id ="textBox">
+                    <article>
+                        <h1>Trash Team Racing</h1><hr>
+                        <p>Google Chrome is a free, open-source web browser developed by Google, released in 2008.</p>
+                    </article>
+                </div>
+            </a>
+
+            <div id = "pPreview">
+                <img src="Resources/images/boom.jpg"/>
+                <div id ="textBox">
+                    <article>
+                        <h1>BOOM</h1><hr>
+                        <p>Google Chrome is a free, open-source web browser developed by Google, released in 2008.</p>
+                    </article>
+                </div>
+            </div>
+
         </div>
+        
 	</body>
 
 <html/>

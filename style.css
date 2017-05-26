@@ -16,8 +16,6 @@ a
 {
     height:512px;
     width:100%;
-    background-image: url("Resources/images/pizzas.jpg") repeat;
-    background-position:center;
     background-color: #42A5F5;
     box-shadow: 0px 0px 20px #666666;
 }
@@ -44,6 +42,29 @@ a
 #content hr
 {
     width: 70%;
+}
+
+#header
+{
+    width: inherit;
+    height: 64px;
+    color: white;
+}
+
+#nav
+{
+    color: white;
+    text-decoration: none;
+    width: 24%;
+    line-height: 64px;
+    text-align: center;
+    height: inherit;
+    display: inline-block;
+}
+
+#nav:hover
+{
+    color: #B8C4CB;
 }
 
 #about
@@ -109,3 +130,9 @@ a
     color: #BBBBBB;
     font-family: 'Roboto', sans-serif;
 }
+
+.white{color: #FFFFFF;}
+
+.grey{color: #B8C4CB;}
+
+.blue{color: #42A5F5;}
