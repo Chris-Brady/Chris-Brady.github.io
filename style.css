@@ -12,6 +12,11 @@ a
     text-decoration: none;
 }
 
+iframe
+{
+    border: none;
+}
+
 #banner
 {
     height: 512px;
@@ -100,7 +105,7 @@ a
 
 #about p
 {
-    font-size: 20px;
+    font-size: 18px;
     color: #B8C4CB;
     font-family: 'Noto Sans', sans-serif;
 }
@@ -120,6 +125,7 @@ a
 #textBox
 {
     padding: 8px;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -195,6 +201,43 @@ a
     background-color: white;
     width: 100%;
     height: 1200px;
+}
+
+#gallery
+{
+    position: relative;
+    background-color: white;
+    height: 500px;
+    width: auto;
+    box-shadow: 0px 0px 10px #666666;
+}
+
+.galButton
+{
+    opacity: 1;
+    background-color: inherit;
+    border: none;
+    height: 80px;
+    width:30px;
+    position: absolute;
+    top: 45%;
+    box-shadow: 0px 0px 10px #666666;
+}
+
+.bRight{right: -10px;}
+
+.bLeft{left: -10px;}
+
+.galButton:hover
+{
+    opacity: 0.9;
+}
+
+.slide
+{
+    width: 100%;
+    height: 500px;
+    display:none;
 }
 
 .txt{color: #B8C4CB;}
