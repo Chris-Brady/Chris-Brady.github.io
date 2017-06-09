@@ -43,7 +43,7 @@ iframe
 #banner
 {
     height: 512px;
-    width: 100%;
+    width: inherit;
     box-shadow: 0px 0px 20px #666666;
 }
 
