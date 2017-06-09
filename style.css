@@ -120,13 +120,12 @@ hr{width: 70%;}
 
 #textBox
 {
-    padding: 8px;
-    font-size: 18px;
+    padding: 16px;
 }
 
 #pSnippet
 {
-    width: inherit;
+    width: 100%;
     background-color: white;
     box-shadow: 0px 0px 10px #666666;
 }
@@ -196,7 +195,7 @@ hr{width: 70%;}
 .f1{font-family: 'Roboto', sans-serif;}
 .f2{font-family: 'Noto Sans', sans-serif;}
 
-.txt{color: #B8C4CB;}
+.txt{color: #A7B4CB;}
 .txtWhite{color: #FFFFFF;}
 
 .bgBlue{background-color: #03A9F4;}
